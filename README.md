@@ -8,5 +8,5 @@ Agenda
 3. stack
 4. sort, heap
 5. tree(preorder, inorder, postorder traverse)
-6. strings math
+6. strings(KMP) math
 7. graph(DFS BFS)
