@@ -9,22 +9,21 @@
  */
 class Solution {
 public:
-    vector<int> inorderTraversal(TreeNode* root) {
+    vector<int> preorderTraversal(TreeNode* root) {
         vector<int> result;
-		stack<TreeNode*> travStk;
+		stack<TreeNode*> strvStk;
 		TreeNode* nodeP = root;
-		while (nodeP != NULL || !travStk.empty())
+		while (nodeP != NULL || !strvStk.empty())
 		{
 			while (nodeP != NULL)
 			{
-				travStk.push(nodeP);
+				strvStk.push(nodeP);
+				result.push_back(nodeP->val);
 				nodeP = nodeP->left;
 			}
 			
-			nodeP = travStk.top();
-			travStk.pop();
-			result.push_back(nodeP->val);
-			nodeP = nodeP->right;
+			nodeP = strvStk.top()->right;
+			strvStk.pop();
 		}
 		
 		return result;
