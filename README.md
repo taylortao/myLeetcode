@@ -6,7 +6,8 @@ Agenda
 1. DP
 2. linked list & binary search 
 3. stack
-4. sort, heap, greedy
+4. sort, heap, greedy, hash
 5. tree(preorder, inorder, postorder traverse)
+6. union find
 6. strings(KMP) math
 7. graph(DFS BFS)
