@@ -1,0 +1,5 @@
+1. int to string : to_string(intvalue)
+2. sort (myvector.begin(), myvector.end());
+vector<int> v; v.push_back(xxx); v.pop_back(xxx);
+v.push_back(vector); vector do not need duplicate before.
+v.size()

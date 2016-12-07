@@ -10,4 +10,4 @@ Agenda
 5. tree(preorder, inorder, postorder traverse)
 6. union find
 6. strings(KMP) math
-7. graph(DFS BFS)
+7. graph(DFS BFS backtracking)
