@@ -1,0 +1,1 @@
+select distinct Num as ConsecutiveNums from (select Num, @cnt:=(@cnt>=0)*(Num=@pv)*(@cnt + 1) as Count, @pv:= Num from Logs, (select @pv:=-1, @cnt:=-1) init) as CntTable where Count=2
