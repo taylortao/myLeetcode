@@ -4,3 +4,10 @@ a.length
 
 2. Math.min(i, j), Math.max(i, j)
 
+3. array / list conversion
+Arrays.asList(array)
+
+List<String> list = Arrays.asList("C", "C++", "Java");
+String[] array = list.toArray();
+
+
